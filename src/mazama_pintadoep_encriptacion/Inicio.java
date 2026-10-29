@@ -56,6 +56,7 @@ public class Inicio {
         List<Integer> resultado = Operaciones.encriptar( mensaje,  clave,(texto, llave) -> Algoritmos.porBit(texto, llave));
     
         System.out.println(resultado);
+        
     }
     
 }
